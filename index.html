@@ -301,38 +301,14 @@
             </picture>
           </div>
           <div class="header__welcome">
-            <svg class="header__traced-welcome header__traced-welcome--mobile" width="90" height="8">
-              <use xlink:href="img/icons/stack.svg#traced-mobile-welcome"></use>
-            </svg>
-            <svg class="header__traced-welcome header__traced-welcome--tablet" width="137" height="9">
-              <use xlink:href="img/icons/stack.svg#traced-tablet-welcome"></use>
-            </svg>
-            <svg class="header__traced-welcome header__traced-welcome--desktop" width="291" height="29">
-              <use xlink:href="img/icons/stack.svg#traced-desktop-welcome"></use>
-            </svg>
-            <div class="header__frame-background">
-              <p class="header__frame-text1">Добро пожаловать<br>в систему LOKTAR</p>
-              <p class="header__frame-text2">Сервис, меняющий день<br>таргетолога</p>
-            </div>
-              <svg class="header__main-frame header__main-frame--mobile" width="107" height="48">
-                <use xlink:href="img/icons/stack.svg#main-frame-mobile"></use>
-              </svg>
-              <svg class="header__main-frame header__main-frame--tablet" width="163" height="74">
-                <use xlink:href="img/icons/stack.svg#main-frame-tablet"></use>
-              </svg>
-              <svg class="header__main-frame header__main-frame--desktop" width="346" height="158">
-                <use xlink:href="img/icons/stack.svg#main-frame-desktop"></use>
-              </svg>
-              <p class="header__frame-text3">цифровой помощник L</p>
-              <svg class="header__dots header__dots--mobile" width="18" height="3">
-                <use xlink:href="img/icons/stack.svg#dots-mobile"></use>
-              </svg>
-              <svg class="header__dots header__dots--tablet" width="26" height="4">
-                <use xlink:href="img/icons/stack.svg#dots-tablet"></use>
-              </svg>
-              <svg class="header__dots header__dots--desktop" width="55" height="7">
-                <use xlink:href="img/icons/stack.svg#dots-desktop"></use>
-              </svg>
+            <picture>
+              <source type="image/webp" media="(min-width: 1920px)" srcset="img/header-welcome-desktop.webp 1x, img/header-welcome-desktop@2x.webp 2x">
+              <source type="image/webp" media="(min-width: 768px)" srcset="img/header-welcome-tablet.webp 1x, img/header-welcome-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="img/header-welcome-mobile.webp 1x, img/header-welcome-mobile@2x.webp 2x">
+              <source media="(min-width: 1920px)" srcset="img/header-welcome-desktop.png 1x, img/header-welcome-desktop@2x.png 2x">
+              <source media="(min-width: 768px)" srcset="img/header-welcome-tablet.png 1x, img/header-welcome-tablet@2x.png 2x">
+              <img class="header__welcome-img" src="img/header-welcome-mobile.png" srcset="img/header-welcome-mobile@2x.png 2x" alt="">
+            </picture>
           </div>
           <div class="header__slogan-wrapper">
             <p class="header__slogan">жизнь</p>
